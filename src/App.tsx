@@ -15,7 +15,7 @@ export default function App() {
 
   const { comandoVoz, limpiarComando, isListening, toggleListening } = useReconocimientoVoz();
 
-  const URL_IA = "https://stream.unith.ai/ucv-1676/asistente-27091?api_key=93488e0385f248d5b120071032f5762d";
+  const URL_IA = "https://stream.unith.ai/ucv-1697/li-28379?api_key=7d031BVTrB47erypG3tevi1U9Fv6BbNUBEiuiX";
 
   useEffect(() => {
     const bienvenida = () => {
