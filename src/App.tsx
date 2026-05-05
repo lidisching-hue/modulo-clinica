@@ -15,7 +15,7 @@ export default function App() {
 
   const { comandoVoz, limpiarComando, isListening, toggleListening } = useReconocimientoVoz();
 
-  const URL_IA = "https://chat-api.unith.ai/api/v1/head/ucv-1697/li-28379/7d031BSN7gxmPWYCAKJgA9aH4yNuERpTvs4uiX";
+  const URL_IA = "https://stream.unith.ai/ucv-1697/li-28379?api_key=7d031BVTrB47erypG3tevi1U9Fv6BbNUBEiuiX";
 
   useEffect(() => {
     const bienvenida = () => {
